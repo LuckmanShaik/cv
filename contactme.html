@@ -1,0 +1,36 @@
+<!DOCTYPE html><!--for forms -->
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Contact me</title>
+</head>
+<body>
+  <h2>contact details:</h2>
+  <p>9347453389</p>
+  <p>my email:Luckmanshaik@gmail.com</p>
+  <hr />
+  <!-- go to MDN WEB DOCS TO CHECK ALL THE ATTRIBUTES-->
+  <form action="mailto:Luckmanshaik@gmail.com" method="post" enctype="text/plain"><!-- form is create-->
+    <!--when we click submit at the end then it will send
+    name,emailID,MSG etc to the luckmanshaik@gmail.com
+  and the "post" in this case simply means that we are
+  going to transfer what user types into these inputs -->
+  <!--enctype is for when submitting through mail it only shows
+  matter without any symbol marks-->
+    <label>your name:</label>
+    <input type="text" name="yourName" value""><br />
+    <label>DOB</label>
+    <input type="date" /><br />
+    <label>your emailID</label>
+    <input type="email" name="yourEmail"><br />
+    <!
+    <label>Your Message:</label><br />
+    <textarea neame="yourMsg" rows="10" cols="10"></textarea><br />
+    <p>
+    <input type="submit"></p>
+    <!-- Here after clincking the submit button it takes us to
+      index.html page if in the form tag above we gave
+      action="index.html" or it will do the task we mention-->
+  </form>
+</body>
+</html>
